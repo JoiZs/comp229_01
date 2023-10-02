@@ -1,0 +1,40 @@
+<%- include ('partials/header.ejs') %> <%- include ('partials/main_nav.ejs') %>
+
+<!--<img src="img/logo.png" alt="logo">-->
+
+<main class="container">
+  <div class="d-flex h-100">
+    <div
+      class="flex-grow-1 d-flex flex-column justify-content-center align-items-center position-relative overflow-hidden"
+    >
+      <img
+        class="position-absolute img-fluid"
+        src="img/proj.svg"
+        alt="Project"
+      />
+      <div class="card">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <div class="d-flex flex-row align-items-center gap-2">
+              <i class="fa-solid fa-calculator"></i><span>Calculator</span>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="d-flex flex-row align-items-center gap-2">
+              <i class="fa-solid fa-check"></i> <span>Todo List</span>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="d-flex flex-row align-items-center gap-2">
+              <i class="fa-solid fa-qrcode"></i> <span>QR Scanner</span>
+            </div>
+          </li>
+        </ul>
+        <div class="card-footer">Projects</div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<%- include ('partials/bottom_nav.ejs') %> <%- include ('partials/footer.ejs')
+%>

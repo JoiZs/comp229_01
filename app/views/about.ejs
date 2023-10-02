@@ -1,0 +1,60 @@
+<%- include ('partials/header.ejs') %> <%- include ('partials/main_nav.ejs') %>
+
+<!--<img src="img/logo.png" alt="logo">-->
+
+<main class="container">
+  <div class="d-flex h-100">
+    <div
+      class="flex-grow-1 d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="flex-grow-1 d-flex flex-column justify-content-center gap-2">
+        <div
+          class="d-flex flex-row justify-content-start align-items-center gap-2"
+        >
+          <h1>Pyae Sone Aung</h1>
+          <div
+            class="overflow-hidden flex-grow-1 d-flex justify-content-center align-items-center"
+          >
+            <img
+              src="img/prof.jpg"
+              class="rounded-circle shadow-sm"
+              alt="Profile"
+              height="80px"
+              width="80px"
+            />
+          </div>
+        </div>
+        <div class="d-flex gap-1 align-items-center">
+          <span class="fw-semibold fs-5">Centennial College</span>•<span
+            class="fw-lighter fs-6"
+            >Software Engineering...</span
+          >
+        </div>
+        <div class="d-flex justify-content-end">
+          <a
+            href="/resume"
+            type="button"
+            class="btn btn-sm btn-outline-dark text-uppercase fs-6 fw-lighter"
+          >
+            resume
+          </a>
+        </div>
+      </div>
+      <div class="fs-3 mb-social-icons">
+        <i class="fas fa-brands fa-linkedin"></i>
+        <i class="fas fa-brands fa-square-facebook"></i>
+        <i class="fas fa-brands fa-square-twitter"></i>
+      </div>
+    </div>
+  </div>
+  <style>
+    @media (min-width: 992px) {
+      .mb-social-icons {
+        display: none;
+      }
+    }
+  </style>
+</main>
+
+<%- include ('partials/bottom_nav.ejs') %> <%- include ('partials/footer.ejs')
+%>
